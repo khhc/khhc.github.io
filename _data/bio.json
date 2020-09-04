@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Kwan Ho Cheung",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://khhc.github.io/images/pfp.jpeg",
+    "email": "khhc@hawaii.edu",
+    "phone": "",
+    "website": "https://khhc.github.io",
+    "summary": "I am a student at the University of Hawaii at Manoa studying for a B.S. in Computer Science in the Department of Information and Computer Sciences and a B.S. in Mathematics in the Department of Mathematics. I expect to graduate in Spring 2022.",
     "location": {
       "address": "",
-      "postalCode": "96822",
+      "postalCode": "",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,41 +17,26 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "khhc",
+        "url": "http://github.com/khhc"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Kwan Ho Cheung",
+        "url": "http://linkedin.com/in/kwan-ho-cheung-594b341b5/"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Coding",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "C",
+        "Javascript"
       ]
     },
     {
-      "name": "data mining",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "artificial intelligence",
+      "name": "Artificial Intelligence",
       "keywords": [
       ]
     }
