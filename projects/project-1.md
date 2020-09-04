@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/oml.png
-title: Micromouse
+title: Oahu Math League
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
 date: 2015-07-01
