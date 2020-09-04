@@ -18,4 +18,4 @@ During my junior and senior year of high school, I was elected to be President o
 
 My time in this leadership position has given me the confidence to take initiative. I used to be the type of person to tag along in an adventure or just go with the flow. Being put in an executive position has enabled my ability to make choices on my own behalf, whether that be with or without the help on an external aid. It taught me that not every choice I make is going to be perfect (which could be seen by how well the team members performed), but that is part of the learning process. The position has also taught me how to manage a group or team. Accommodating everyone's needs is almost always never going to happen, so being able to come up with a compromise is as essential skill to have. Some people may be uncooperative during a group environment, but finding a work-around to keep the group on track is much more productive than seeing a group member as a liability.
 
-You can learn more at the [Oahu Math League Website](http://http://www.oahumath.org/).
+You can learn more at the [Oahu Math League Website](http://www.oahumath.org/).
