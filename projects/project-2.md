@@ -1,25 +1,22 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: pueo.png
+title: PUEO Program at Punahou School
+permalink: projects/pueo
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2018-06-18
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Community
+  - Teaching
+  
+summary: Paying it forward to a community that took me in.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+The Clarance T. C. Ching PUEO Program at Punahou School was a summer scholarship that I received shortly after finishing the fifth grade. The program offers a preset private school education for up to seven consecutive summers. Students of the PUEO Program come from a lower-income household, with many on track to becoming a first-generation college graduate. The program composes of many courses that teaches students both school subjects and leadership expertise. Additionally, the students in one's year continue to return until completion of the program, so it creates a sense of community around your class. 
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+I went through the PUEO Program in its entirety, meeting a lot of new friends and experiencing new opportunities. Looking back at how much the program has impacted my life for the better, I wanted to make that lasting impact worth it. I applied to rejoin the program, but this time as a teaching assistant. My first summer doing so was with the freshman class of the program. It was nostalgic seeing this group of students who barely know each other form a community around the sole fact that they are a part of this program. My second summer worked with the senior class of students, who are rising high school seniors. Being able to help them figure out colleges and get to know their interests reminded me of my adventures when I did them with my friends.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+My first summer made me realize that I was very immature at the time, and with the new students coming in, I had to be a role model that they would look towards and be proud to be shadowing. I diverted myself from harsher tones and befriended a kinder nature. My co-worker and I were in charge of running the afternoon class with the students. That class trained my management skills, as well as my leadership skills. It was definitely not easy to get over 20 students to sit down for a math lesson, but doable once you understand who or what you are working with. Being able to read the situation and react appropriately was something I have taken with me from the experiences I had with the PUEO Program.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+You can read more about the program [here](https://www.punahou.edu/about/community-engagement/pueo#).
