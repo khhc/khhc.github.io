@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: pueo.jpg
+image: images/pueo.png
 title: PUEO Program at Punahou School
 permalink: projects/pueo
 # All dates must be YYYY-MM-DD format!
