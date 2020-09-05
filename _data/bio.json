@@ -24,6 +24,11 @@
         "network": "linkedin",
         "username": "Kwan Ho Cheung",
         "url": "http://linkedin.com/in/kwan-ho-cheung-594b341b5/"
+      },
+      {
+        "network": "TechHui",
+        "username": "Kwan Ho Cheung",
+        "url": "http://www.techhui.com/profile/KwanHoCheung"
       }
     ]
   },
@@ -38,6 +43,14 @@
     {
       "name": "Artificial Intelligence",
       "keywords": [
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "keywords": [
+        "Data Analysis",
+        "Calculus",
+        "Teaching"
       ]
     }
   ],
