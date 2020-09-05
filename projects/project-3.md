@@ -1,61 +1,50 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/212.jpg
+title: Checkbook Management Program
+permalink: projects/212
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2020-14-01
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - C
+summary: A program that manages checks that I made in ICS 212.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+At the midpoint of the ICS 212 course I was taking from Kapiolani Community College, we were tasked with making a program in the C programming language that manages the checks of a single checkbook using pointers. The program must be capable of adding a check, deleting a check, retrieving the information of a check, and printing the entire checkbook. The checks were organized in a linked list, and each check had five pieces of data attached to the object, not including the pointer to the next (if any) check. Each aforementioned task must be done through a function, and all tasks are manually selected via user input. The user must be presented with a menu to choose their choice of task for the checkbook.
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+```
+struct check { // We initialize a structure of type check
+	int check_num;
+	char date[100];
+	char to[100];
+	float amount;
+	char description[100];
+	struct check *next;
+};
+```
 
-To give you a flavor of the game, here is an excerpt from one run:
+I explored a minor portion of the C coding language in an earlier university course I took. Because of this, I was rather familiar with the syntax and such of how C works. However, I had no knowledge of linked lists in C prior to this class. I learned about linked lists as a data type in ICS 211, but they were structured extremely differently from C. I struggled with data types while doing this assignment, more specifically the pointers that were inputted into a function. My solution was to create a pointer of the pointer so that the original pointer was easier for me to reference, and therefore helped me understand the data types better.
 
-<hr>
+```
+void print_check(int check_number, struct check **checkbook) {
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+	if (*checkbook == NULL) { // If we've reached the end, not in checkbook
+		printf("This check number is not in your checkbook.\n\n");
+		return;
+	}
+	else if ((*checkbook)->check_num == check_number) { // If check number matches, print information
+		printf("\nCheck Number: %i\n", check_number);
+		printf("Check %i's Date: %s", check_number, (*checkbook)->date);
+		printf("Check %i's To: %s", check_number, (*checkbook)->to);
+		printf("Check %i's Amount: $%.2f\n", check_number, (*checkbook)->amount);
+		printf("Check %i's Description: %s\n", check_number, (*checkbook)->description);
+	}
+	else if ((*checkbook)->next != NULL) { // If the next isn't NULL, traverse to it.
+		print_check(check_number, &(*checkbook)->next);
+	}
+}
+```
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+This assignment was my favorite of the entire course because the instructions and lessons given to us were not sufficient enough to complete this assignment. Because of that, I had to learn through the internet for the most of this task. I feel that being self-directed in that sense was an important trait to have picked up. I explored several different websites and came across a plethora of solutions, but being able to translate that from code jargon to something that I could understand was the most challenging part. This exploration of information led me to learn more about coding in C, mainly because of how the searching was driven by me rather than by an assignment for a course. I recommend taking some time to explore beyond what is asked of you for an assignment if it peaks your interest.
 
