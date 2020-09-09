@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Revisiting JavaScript
+title: Hello, JavaScript? It's Me Again
 date: 2020-09-03
 labels:
   - Software Engineering
