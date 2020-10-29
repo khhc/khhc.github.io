@@ -34,6 +34,14 @@
   },
   "interests": [
     {
+      "name": "Mathematics",
+      "keywords": [
+        "Data Analysis",
+        "Calculus",
+        "Teaching"
+      ]
+    },
+    {
       "name": "Coding",
       "keywords": [
         "C",
@@ -43,14 +51,6 @@
     {
       "name": "Artificial Intelligence",
       "keywords": [
-      ]
-    },
-    {
-      "name": "Mathematics",
-      "keywords": [
-        "Data Analysis",
-        "Calculus",
-        "Teaching"
       ]
     }
   ],
@@ -63,35 +63,37 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "HTML",
+        "CSS",
+        "C#"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
+        "Windows 10",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Sublime",
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science and Mathematics (expected Spring, 2020)",
+      "area": "Computer Science and Mathematics (expected Spring, 2022)",
       "studyType": "B.S.",
       "startDate": "2018-08-026",
       "endDate": "Present",
       "gpa": "2.70",
       "courses": [
-        "ICS 311",
-        "ICS 314",
-        "Calculus I-IV",
-        "Real Analysis"
+        "ICS 311: Algorithms",
+        "ICS 314: Software Engineering I",
+        "ICS 321: Database Systems I",
+        "Math 241-244: Calculus",
+        "Math 307: Linear Algebra and Differential Equations",
+        "Math 372: Probability and Statistics",
+        "Math 631: Real Analysis"
       ]
     }
   ],
@@ -102,7 +104,7 @@
       "website": "",
       "startDate": "2019-08-24",
       "endDate": "Present",
-      "summary": "Mathematics Tutor",
+      "summary": "Worked with college students from various mathematics backgrounds.",
     }
   ],
   "awards": [
