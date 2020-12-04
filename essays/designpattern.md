@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: Even a Tree Has Roots
-date: 2020-09-04
+date: 2020-12-03
 labels:
   - Software Engineering
   - Learning
