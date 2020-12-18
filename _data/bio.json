@@ -65,7 +65,8 @@
         "Javascript",
         "HTML",
         "CSS",
-        "C#"
+        "C#",
+        "Unity"
       ]
     },
     {
@@ -74,18 +75,19 @@
       "keywords": [
         "Windows 10",
         "Git/GitHub",
-        "Sublime"
+        "Sublime",
+        "IntelliJ"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
       "area": "Computer Science and Mathematics (expected Spring, 2022)",
       "studyType": "B.S.",
       "startDate": "2018-08-026",
       "endDate": "Present",
-      "gpa": "2.70",
+      "gpa": "3.70",
       "courses": [
         "ICS 311: Algorithms",
         "ICS 314: Software Engineering I",
