@@ -19,7 +19,7 @@ I think the most ironic part about this project was that we made it during a pan
 
 We divided up tasks for the project in a way that played to everyone's strengths. Personally, I have an affinity for organization and thinking of hypotheticals, so it was natural that my contributions included creating the database, scheduling meetings, and testing the site, among other things. There were sessions where we clocked in extra hours thinking about what might cause a bug to appear, and how we can go about preventing said bug to occur again. One of the largest issues we had was when we started implementing the ability to create a Jam. Every time a Jam was created, the website would crash. Once that got fixed, anyone who joined a Jam who crash the site again. Eventually, we compared creating a Jam to creating a profile, and were able to trace some issues with an inconsistent data transfer.
 
-<img src="images/AllJams.png>
+<img src="images/AllJams.png">
 
 As this was the final project for my software engineering course, this put me to the test on anything I may have learned throughout the semester. It kept me thinking, "if this does not work, what if we try this instead?" I think ultimately, the project has helped me immensely in communicating with others, as well as seeing the transformation of code to product and vice versa. Looking forward, I want to further enhance my ability to contribute in a team environment, as well as gain a better understanding in the code I write.
 
